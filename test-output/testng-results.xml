@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="148752" started-at="2020-09-15T23:49:46 PDT" finished-at="2020-09-15T23:52:14 PDT">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="148752" started-at="2020-09-15T23:49:46 PDT" finished-at="2020-09-15T23:52:14 PDT">
+      <class name="com.amazon.AppTest">
+        <test-method status="PASS" signature="amzonProductPerchase(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.amazon.AppTest@eafc191]" name="amzonProductPerchase" duration-ms="148686" started-at="2020-09-15T23:49:46 PDT" data-provider="data-provider" finished-at="2020-09-15T23:52:14 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rukhsana.khan1234@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[RUKHS9673344]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[65-inch TV]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[LG 164 cms (65 inches) 4K Ultra HD Smart OLED TV OLED65B9PTA | With Built-in Alexa (PCM Black) (2019 Model)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amzonProductPerchase -->
+      </class> <!-- com.amazon.AppTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
