@@ -64,7 +64,7 @@ public class AmazonLoginPage {
 		waitDriver.until(ExpectedConditions.visibilityOf(getEmailTextBox()));
 	}
 	
-	public void invoke() throws IOException {
+	public void invoke() throws IOException, InterruptedException {
 	  AmazonLandingPage landingPage = new AmazonLandingPage(driver);
 	  landingPage.waitForPageToLoad();
 	  landingPage.getAlreadyCustomerSignInButton().click();

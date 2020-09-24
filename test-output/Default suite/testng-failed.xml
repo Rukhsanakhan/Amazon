@@ -6,6 +6,8 @@
       <class name="com.amazon.AppTest">
         <methods>
           <include name="amzonProductPerchase" invocation-numbers="0"/>
+          <include name="killAllNodes"/>
+          <include name="StartNodes"/>
         </methods>
       </class> <!-- com.amazon.AppTest -->
     </classes>

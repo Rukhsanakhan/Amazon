@@ -30,7 +30,8 @@ public class BasePage {
 
 	public static AndroidDriver<AndroidElement> capabilities() throws IOException{
 		AndroidDriver<AndroidElement> driver;
-		FileInputStream fis = new FileInputStream(System.getProperty("user.dir")+"\\src\\main\\java\\com\\amazon\\global.properties");
+		
+		FileInputStream fis = new FileInputStream(System.getProperty("user.dir")+"\\src\\main\\java\\\\resources\\global.properties");
 		Properties prop = new Properties();
 		prop.load(fis);
 
@@ -40,7 +41,7 @@ public class BasePage {
 		DesiredCapabilities capabilities = new DesiredCapabilities();
 		capabilities.setCapability(MobileCapabilityType.APP, app.getAbsolutePath());
 		capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, prop.getProperty("device"));
-		capabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME, prop.getProperty("automationName"));
+		//capabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME, prop.getProperty("automationName"));
 		driver = new AndroidDriver<AndroidElement>(new URL("http://127.0.0.1:4723/wd/hub"),capabilities);
 		driver.manage().timeouts().implicitlyWait(25, TimeUnit.SECONDS);
 		return driver;

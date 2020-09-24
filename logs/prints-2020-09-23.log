@@ -1,0 +1,6 @@
+10:10:09.050 [main] INFO  com.amazon.BasePage - Execution started
+22:17:23.727 [main] INFO  com.amazon.BasePage - Amazon Home page is displayed
+22:17:37.991 [main] INFO  com.amazon.BasePage - Searched item is selected
+22:17:41.861 [main] INFO  com.amazon.BasePage - Searched Page is displayed
+22:18:05.427 [main] INFO  com.amazon.BasePage - LG 164 cms (65 inches) 4K Ultra HD Smart OLED TV OLED65B9PTA | With Built-in Alexa (PCM Black) (2019 Model)is selected
+22:18:10.648 [main] INFO  com.amazon.BasePage - Amazon product description page is displayed

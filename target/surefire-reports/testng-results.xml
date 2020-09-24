@@ -2,15 +2,45 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="142" started-at="2020-09-14T02:11:19 PDT" finished-at="2020-09-14T02:11:19 PDT">
+  <suite name="Surefire suite" duration-ms="3107" started-at="2020-09-23T10:10:08 PDT" finished-at="2020-09-23T10:10:12 PDT">
     <groups>
     </groups>
-    <test name="Surefire test" duration-ms="142" started-at="2020-09-14T02:11:19 PDT" finished-at="2020-09-14T02:11:19 PDT">
+    <test name="Surefire test" duration-ms="3107" started-at="2020-09-23T10:10:08 PDT" finished-at="2020-09-23T10:10:12 PDT">
       <class name="com.amazon.AppTest">
-        <test-method status="PASS" signature="shouldAnswerWithTrue()" name="shouldAnswerWithTrue" duration-ms="22" started-at="2020-09-14T02:11:19 PDT" finished-at="2020-09-14T02:11:19 PDT">
+        <test-method status="PASS" signature="StartNodes()[pri:0, instance:com.amazon.AppTest@385c9627]" name="StartNodes" is-config="true" duration-ms="24" started-at="2020-09-23T10:10:08 PDT" finished-at="2020-09-23T10:10:08 PDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- shouldAnswerWithTrue -->
+        </test-method> <!-- StartNodes -->
+        <test-method status="PASS" signature="amzonProductPerchase(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.amazon.AppTest@385c9627]" name="amzonProductPerchase" duration-ms="9" started-at="2020-09-23T10:10:09 PDT" data-provider="data-provider" finished-at="2020-09-23T10:10:09 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rukhsana.khan1234@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[RUKHS9673344]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[65-inch TV]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[LG 164 cms (65 inches) 4K Ultra HD Smart OLED TV OLED65B9PTA | With Built-in Alexa (PCM Black) (2019 Model)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amzonProductPerchase -->
+        <test-method status="PASS" signature="killAllNodes()[pri:0, instance:com.amazon.AppTest@385c9627]" name="killAllNodes" is-config="true" duration-ms="3005" started-at="2020-09-23T10:10:09 PDT" finished-at="2020-09-23T10:10:12 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killAllNodes -->
       </class> <!-- com.amazon.AppTest -->
     </test> <!-- Surefire test -->
   </suite> <!-- Surefire suite -->
